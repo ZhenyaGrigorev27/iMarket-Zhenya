@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css/main.css">
+    <title>iMarket</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="hero">
+        <header class="header">
+            <a href="" class="logo">
+                <img src="./img/logo/logos.png" class="logo__pic" alt="logotip">
+            </a>
+            <a href="mailto:zhenka97@gmail.com" class="mail">
+                <div class="mail__title">По всем вопросам пишите на почту:</div>
+                <div class="mail__content">zhenka97@gmail.com</div>
+            </a>
+        </header>
+        <div class="hero__content">
+            <ul class="fade-slider">
+                <li class="fade-slider__item fade-slider__item--style-iphone11 fade-slider__item--visble">
+                    <div class="fade-slider__text fade-slider__text-iphone11">
+                        <div class="lined-text">
+                            <div class="lined-text__word"><h1>Скидка</h1></div>
+                            <div class="lined-text__word"><h1>на</h1></div>
+                            <div class="lined-text__word lined-text__word--color"><h1>iPhone 11</h1></div>
+                            <div class="lined-text__word lined-text__word--color"><h1>15%</h1></div>
+                        </div>
+                    </div>
+                </li>
+                <li class="fade-slider__item fade-slider__item--style-ps5">
+                    <div class="fade-slider__text fade-slider__text-ps5">
+                        <div class="lined-text">
+                            <div class="lined-text__word"><h1>Предзаказ</h1></div>
+                            <div class="lined-text__word lined-text__word--color"><h1>PlayStation 5</h1></div>
+                        </div>
+                    </div>
+                </li>
+                <li class="fade-slider__item fade-slider__item--style-iphone12">
+                    <div class="fade-slider__text fade-slider__text-iphone12">
+                        <div class="lined-text">
+                            <div class="lined-text__word"><h1>В продаже</h1></div>
+                            <div class="lined-text__word lined-text__word--color"><h1>с 4 ноября</h1></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <aside class="sidebar">
+            <a href="#" class="sidebar__hamburger">
+                <svg class="sidebar__hamburger-icon">
+                    <use xlink:href="./img/icons-sprite.svg#bars"></use>
+                </svg>
+            </a>
+            <div class="sidebar__header">
+                <a href="#" class="logo">
+                    <img src="./img/logo/logos.png" alt="logo" class="logo__image">
+                </a>
+                <a href="#" class="sidebar__close">
+                    <svg class="sidebar__close-icon">
+                        <use xlink:href="./img/icons-sprite.svg#cross"></use>
+                    </svg>
+                </a>
+            </div>
+            <nav class="side-menu sidebar__menu">
+                <ul class="side-menu__list">
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Новинки</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Телефоны</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">PlayStation 4</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Компьютеры</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Специальные предложения</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Аксессуары</a>
+                    </li>
+                    <li class="side-menu__item">
+                        <a href="#" class="side-menu__link">Скоро в продаже</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        </section>
+        <section class="products">
+            <div class="container">
+                <ul class="filter">
+                    <li class="filter__item filter__item--active">
+                        <a href="#" data-filter="popular" class="filter__link">Популярное</a>
+                    </li>
+                    <li class="filter__item">
+                        <a href="#" data-filter="new" class="filter__link">Новинки</a>
+                    </li>
+                    <li class="filter__item">
+                        <a href="#" data-filter="bestsellers" class="filter__link">Бестселлеры</a>
+                    </li>
+                    <li class="filter__item">
+                        <a href="#" data-filter="specials" class="filter__link">Специальные предложения</a>
+                    </li>
+                    <li class="filter__item">
+                        <a href="#" data-filter="soon" class="filter__link">Скоро в продаже</a>
+                    </li>
+                </ul>
+                <ul class="products__list">
+                    <li class="products__item new bestsellers">
+                        <div class="products__price">
+                            <div class="product__price-amount">49 990</div>
+                        </div>
+                        <div class="products__content">
+                            <img src="./img/product/iphoneXR-red.png" alt="iphoneXR_red" class="products__img">
+                            <div class="product__desc">
+                                <div class="product__desc-text">
+                                    iPhone XR Red 64Gb
+                                </div>
+                                <a href="" class="btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products__item new specials soon">
+                        <div class="products__price">
+                            <div class="product__price-amount">42 990</div>
+                        </div>
+                        <div class="products__content">
+                            <img src="./img/product/iphoneX-space.png" alt="iphoneX-space" class="products__img">
+                            <div class="product__desc">
+                                <div class="product__desc-text">
+                                    iPhone X Space 64Gb
+                                </div>
+                                <a href="" class="btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products__item new popular specials products__item--color products__item--sizeW">
+                        <div class="products__price">
+                            <div class="product__price-amount">89 990</div>
+                        </div>
+                        <div class="products__content">
+                            <img src="./img/product/iphone11-pro.png" alt="iphone11_pro" class="products__img">
+                            <div class="product__desc">
+                                <div class="product__desc-text">
+                                    iPhone 11 Pro 64Gb
+                                </div>
+                                <a href="" class="btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products__item new popular soon products__item--color products__item--sizeW">
+                        <div class="products__price">
+                            <div class="product__price-amount">39 990</div>
+                        </div>
+                        <div class="products__content">
+                            <img src="./img/product/iphoneSE-black.png" alt="iphoneSe-black" class="products__img">
+                            <div class="product__desc">
+                                <div class="product__desc-text">
+                                    iPhone SE 64Gb
+                                </div>
+                                <a href="" class="btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products__item new specials soon">
+                        <div class="products__price">
+                            <div class="product__price-amount">49 990</div>
+                        </div>
+                        <div class="products__content">
+                            <img src="./img/product/iphoneXR-blue.png" alt="iphoneXR-blue" class="products__img">
+                            <div class="product__desc">
+                                <div class="product__desc-text">
+                                    iPhone XR Blue 64Gb
+                                </div>
+                                <a href="" class="btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products__item new">
+                        <div class="products__price">
+                            <div class="product__price-amount">42 990</div>
+                        </div>
+                        <div class="products__content">
+                            <img src="./img/product/iphoneX-white.png" alt="iphoneX-white" class="products__img">
+                            <div class="product__desc">
+                                <div class="product__desc-text">
+                                    iPhone X White 64Gb
+                                </div>
+                                <a href="" class="btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="collections">
+            <div class="container">
+                <ul class="collection__list">
+                    <li class="collection__item collection__item-phone">
+                        <a href="" class="collection__link">
+                            <h2 class="collections__title">Телефоны</h2>
+                            <div class="collections__desc">
+                                lorem
+                            </div>
+                            <span class="btn">Просмотреть</span>
+                        </a>
+                    </li>
+                    <li class="collection__item collection__item-accessories">
+                        <a href="" class="collection__link">
+                            <h2 class="collections__title">Аксессуары</h2>
+                            <div class="collections__desc">
+                                lorem
+                            </div>
+                            <span class="btn">Просмотреть</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container footer__container">
+                <nav class="site-menu">
+                    <ul class="site-menu__sections">
+                        <li class="site-menu__col">
+                            <h3 class="site-menu__tittle">Информация</h3>
+                            <ul class="site-menu__list">
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">О магазине</a>
+                                </li>
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">Адреса магазинов</a>
+                                </li>
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">Как сделать заказ?</a>
+                                </li>
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">Обмен и возврат</a>
+                                </li>
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="site-menu__col">
+                            <h3 class="site-menu__tittle">Прочее</h3>
+                            <ul class="site-menu__list">
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">PlayStation</a>
+                                </li>
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">Игры для PS4</a>
+                                </li>
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">Аксессуары PS4</a>
+                                </li>
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">Скидки</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="site-menu__col">
+                            <h3 class="site-menu__tittle">Компьютеры</h3>
+                            <ul class="site-menu__list">
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">Процессоры</a>
+                                </li>
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">Мониторы</a>
+                                </li>
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">Аксессуары</a>
+                                </li>
+                                <li class="site-menu__item">
+                                    <a href="#" class="site-menu__link">Скидки</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="site-menu__col">
+                            <h3 class="site-menu__tittle">Контактная информация</h3>
+                            <div class="site-menu__text">
+                                <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%93%D0%B0%D1%84%D0%B8%D0%B0%D1%82%D1%83%D0%BB%D0%BB%D0%B8%D0%BD%D0%B0,+43,+%D0%91%D1%83%D0%B3%D1%83%D0%BB%D1%8C%D0%BC%D0%B0,+%D0%A0%D0%B5%D1%81%D0%BF.+%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD,+423236/@54.5315257,52.7969156,17z/data=!3m1!4b1!4m5!3m4!1s0x4161a8c401fc8ee1:0x405c8012e1b0e801!8m2!3d54.5315257!4d52.7991043" class="site-menu__text-map">
+                                Бугульма, <br>
+                                ул. Гафиатуллина, д.43
+                                </a>
+                            </div>
+                            <div class="site-menu__text">
+                                <a href="#" class="site-menu__text-row">
+                                    Телефон: 8-999-878-92-85
+                                </a>
+                                <a href="#" class="site-menu__text-row">
+                                    e-mail: iMarketsupport@gmail.com
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <section class="extras">
+                    <div class="extras__col">
+                        <a href="#" class="extras__best">
+                            Хиты <br>
+                            2019
+                        </a>
+                    </div>
+                    <div class="extras__col">
+                        <div class="extras__col-socials">
+                            <ul class="socials">
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <svg class="socials__icon">
+                                            <use xlink:href="./img/icons-sprite.svg#fb"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <svg class="socials__icon">
+                                            <use xlink:href="./img/icons-sprite.svg#insta"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <svg class="socials__icon">
+                                            <use xlink:href="./img/icons-sprite.svg#twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </div>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="./scripts/sidebar-menu.js"></script>
+<script src="./scripts/fade-slider.js"></script>
+<script src="./scripts/filter.js"></script>
+</body>
+</html>
