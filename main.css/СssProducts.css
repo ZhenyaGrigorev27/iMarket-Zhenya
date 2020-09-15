@@ -9,7 +9,7 @@ html, body {
 
 .container{
     margin: 0 auto;
-    width: 1300px;
+    width: 800px;
 }
 
 body{
@@ -274,118 +274,6 @@ ul > li{
     background: black;
     color: yellow;
 }
-
-.products {
-    margin-bottom: 100px;
-}
-
-.products__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -28px;
-}
-
-.products__item{
-    width: 302px;
-    height: 386px;
-    background: yellow;
-    margin-bottom: 35px;
-    margin-left: 28px;
-    position: relative;
-}
-
-.products__price {
-    position: absolute;
-    top: 8px;
-    left: -8px;
-    width: 126px;
-    border-bottom: 45px solid #232323;
-    border-left: 5px solid transparent;
-    border-right: 2px solid transparent;
-    transform: rotate(-181deg);
-}
-
-.product__price-amount{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Yanone Kaffeesatz', sans-serif, Arial, sans-serif;
-    color: white;
-    transform: rotate(181deg);
-    position: absolute;
-    top: 2px;
-    right: 28px;
-}
-
-.products__item--color{
-    background: #696969;
-}
-
-.products__item--color .products__price{
-    border-bottom-color: yellow;
-}
-
-.products__item--color .product__price-amount{
-    color: black;
-}
-
-.products__item--sizeW{
-    width: 630px;
-    height: 544px;
-
-}
-
-.products__item--sizeW .products__img{
-    display: block;
-    width: auto;
-    height: 50%;
-}
-
-.products__item--sizeW .products__imgP{
-    display: block;
-    width:90%;
-    height: 70%;
-}
-
-.products__content{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.products__item:hover .product__desc{
-    transform: translateY(0%);
-}
-
-.product__desc{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 23px 30px;
-    background: rgba(35,35,35,0.8);
-    font-size: 15px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transform: translateY(100%);
-    transition: transform .5s;
-}
-
-.products__img{
-    display: block;
-    width: 70%;
-    height: 70%;
-}
-
-.product__desc-text {
-    text-align: center;
-    margin-bottom: 18px;
-}
-
 .btn{
     text-transform: uppercase;
     font-family: 'Yanone Kaffeesatz', sans-serif, Arial, sans-serif;
@@ -411,6 +299,7 @@ ul > li{
 }
 
 .collection__item{
+    height: 600px;
     min-height: 474px;
     flex: 1;
     overflow: hidden;
@@ -430,12 +319,9 @@ ul > li{
 }
 
 .collection__item-phone:before {
-    background-image: url("../img/product/iphoneX-space.png");
+    background-image: url("../img/product/iphone11-pro.png");
 }
 
-.collection__item-accessories:before {
-    background-image: url("../img/product/AirPods2.png");
-}
 
 .collection__link{
     display: block;
@@ -448,9 +334,36 @@ ul > li{
     box-sizing: border-box;
 }
 
-.collection__link:hover .btn{
-    background: red;
-    color: white;
+.price__container{
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 13px;
+    padding: 20px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.bacsket{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: yellow;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.bacsket:hover{
+    color: red;
 }
 
 .collections__title{
@@ -473,6 +386,7 @@ ul > li{
 
 .footer{
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .footer__container{
@@ -609,4 +523,3 @@ ul > li{
     width: 100%;
     height: 100%;
 }
-
