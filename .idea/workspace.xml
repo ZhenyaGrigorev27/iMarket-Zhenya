@@ -20,9 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="978e19f2-9924-4014-80a0-c33b159b5457" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/compucters.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsItem/Iphone11-pro.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsItem/Iphone11-pro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product/AirPods2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product/iphone11-ping.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product/iphone11-pro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product/iphone12-black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product/iphone12.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product/iphoneSE-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product/iphoneX-space.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product/iphoneX-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product/iphoneXR-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product/iphoneXR-red.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css/СssProducts.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css/СssProducts.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +94,10 @@
       <workItem from="1599942997411" duration="2666000" />
       <workItem from="1599995203087" duration="3446000" />
       <workItem from="1600101396904" duration="2019000" />
-      <workItem from="1600166497045" duration="9909000" />
+      <workItem from="1600166497045" duration="10259000" />
+      <workItem from="1600179417121" duration="38000" />
+      <workItem from="1600363783862" duration="4495000" />
+      <workItem from="1600375569066" duration="1483000" />
     </task>
     <servers />
   </component>
@@ -98,12 +114,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599513668819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599513668819" />
+    <state x="465" y="118" key="FileChooserDialogImpl" timestamp="1600179464598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="465" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600179464598" />
     <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1600170797098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

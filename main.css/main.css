@@ -188,7 +188,7 @@ ul > li{
 }
 
 .fade-slider__item--style-iphone11{
-    background-image: url("../img/product/iphone11-ping.jpeg");
+    background-image: url("../img/product/iphone/iphone11-ping.jpeg");
 }
 
 .fade-slider__item--style-ps5{
@@ -197,7 +197,7 @@ ul > li{
 
 .fade-slider__item--style-iphone12{
 
-    background-image: url("../img/product/iphone12.jpeg");
+    background-image: url("../img/product/iphone/iphone12.jpeg");
 }
 
 .fade-slider__text{
@@ -430,11 +430,11 @@ ul > li{
 }
 
 .collection__item-phone:before {
-    background-image: url("../img/product/iphoneX-space.png");
+    background-image: url("../img/product/iphone/iphoneX-space.png");
 }
 
 .collection__item-accessories:before {
-    background-image: url("../img/product/AirPods2.png");
+    background-image: url("../img/product/accessories/AirPods2.png");
 }
 
 .collection__link{
@@ -500,6 +500,7 @@ ul > li{
     color: black;
     text-transform: uppercase;
     margin-bottom: 24px;
+    text-decoration: none;
 }
 
 .site-menu__item{
