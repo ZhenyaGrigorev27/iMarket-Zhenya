@@ -274,32 +274,27 @@ ul > li{
     background: black;
     color: yellow;
 }
-.btn{
+.btn-basket{
     text-transform: uppercase;
     font-family: 'Yanone Kaffeesatz', sans-serif, Arial, sans-serif;
-    font-size: 24px;
-    padding: 2px 30px;
+    font-size: 40px;
+    padding: 5px 5px;
     background: black;
     color: yellow;
     display: inline-block;
     text-decoration: none;
+    border-radius: 15px;
 }
 
-.btn:hover{
+.btn-basket:hover{
     background: red;
     color: white;
 }
 
-.collections {
-    margin-bottom: 100px;
-}
 
-.collection__list{
+.productsItem__info{
     display: flex;
-}
-
-.collection__item{
-    height: 600px;
+    justify-content: center;
     min-height: 474px;
     flex: 1;
     overflow: hidden;
@@ -308,23 +303,24 @@ ul > li{
     position: relative;
 }
 
-.collection__item:before{
+.productsItem__info:before{
     content: "";
     display: block;
     position: absolute;
-    height: 100%;
-    width: 35%;
-    left:3%;
+    height: 350px;
+    width: 350px;
+    top: 10%;
+    left:0;
     background: center center / contain no-repeat;
 }
 
-.collection__item-phone:before {
+.productsItem__info--product:before {
     background-image: url("../img/product/iphone/iphone11-pro.png");
 }
 
-
-.collection__link{
-    display: block;
+.productsItem__link{
+    display: flex;
+    flex-direction: column;
     padding: 74px 13% 74px 44%;
     text-decoration: none;
     color: inherit;
@@ -332,41 +328,15 @@ ul > li{
     position: relative;
     height: 100%;
     box-sizing: border-box;
+    text-align: center;
 }
 
-.price__container{
-    background-color: yellow;
-    border: 1px solid yellow;
-    border-radius: 13px;
-    padding: 20px;
+.productsItem__link:hover .btn-basket{
+    background: red;
+    color: white;
 }
 
-.price{
-    display: flex;
-    justify-content: center;
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-.bacsket{
-    display: flex;
-    justify-content: center;
-    font-family: Arial, sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: black;
-    color: yellow;
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 10px;
-}
-
-.bacsket:hover{
-    color: red;
-}
-
-.collections__title{
+.productsItem__title{
     font-family: 'Yanone Kaffeesatz', sans-serif, Arial, sans-serif;
     font-size: 70px;
     font-weight: bold;
@@ -376,13 +346,33 @@ ul > li{
     margin-bottom: 11px;
 }
 
-.collection__item:last-child{
+.productsItem__item:last-child{
     margin-right: 0;
 }
 
-.collections__desc{
+.productsItem__desc{
+    font-size: 50px;
+    font-weight: bold;
     margin-bottom: 28px;
+    background-color: yellow;
+    color: black;
+    padding: 0;
+    width: 210px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     margin-bottom: 100px;
